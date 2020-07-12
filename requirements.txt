@@ -1,0 +1,13 @@
+#library for webscraping
+requests
+
+#library to parse site
+beautifulsoup4
+lxml
+
+#library to dynamically scroll page 
+selenium 
+
+
+
+

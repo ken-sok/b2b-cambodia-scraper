@@ -1,0 +1,22 @@
+version: "3"
+services:
+  scraper:
+    build: . # replaced image with build
+    image: b2b-scraper
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    command: python scraper-b2b-docker.py
+    #environment:
+    #  - DEBUG=1 # set an env var for scraper (only in development mode)
+    ports:
+      - 5000:5000
+    volumes:
+      - /dev/shm:/dev/shm #to avoid tab crash
+    depends_on:  
+      - selenium
+  selenium:
+    image: selenium/standalone-chrome
+    container_name: click-next
+    ports:
+      - 4444:4444
+    
