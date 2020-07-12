@@ -36,8 +36,10 @@ II. For reuse:
     in an excel format
 
 Note: 
+
 -when using cd <directory>, if you copy windows directory, please use single quotes to
 cover directory. For example, cd 'C:/Users/tom/desktop/b2b-docker'
+	
 -if you want to tinker with the code, please do a 'docker-compose down -v' before you rebuild a new docker image/container
 
 Known issues:
