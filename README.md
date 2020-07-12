@@ -42,5 +42,5 @@ cover directory. For example, cd 'C:/Users/tom/desktop/b2b-docker'
 
 Known issues:
 -sometimes the b2b page crashes, you can retry a few times, it should work. 
-
+-sometimes a few entries is missing, this will be worked on with more free time. 
 
