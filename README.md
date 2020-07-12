@@ -41,6 +41,7 @@ cover directory. For example, cd 'C:/Users/tom/desktop/b2b-docker'
 -if you want to tinker with the code, please do a 'docker-compose down -v' before you rebuild a new docker image/container
 
 Known issues:
+
 -sometimes the b2b page crashes, you can retry a few times, it should work. 
 
 -sometimes a few entries is missing, this will be worked on with more free time. 
